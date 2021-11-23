@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+  }
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+a {
+    color: seashell;
+    text-decoration: underline;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+nav li {
+    padding-left: 30px;
+}
+main {
+    position: relative;
+    top: 69px;
+    opacity: 0.9;
+}
+.logo img {
+    display: block;
+    height: 50px;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url("../Images/img-mission-background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mission {
+    background: black;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+}
+.mission-title {
+    margin-bottom: 20px;
+}
+.product {
+    margin: 0 auto;
+    padding: 70px 10px;
+    max-width: 1000px;
+}
+.content-center {
+   text-align: center; 
+}
+.product-title {
+    margin-bottom: 30px;
+}
+.product-text {
+    margin-bottom: 24px;
+}
+.product-gallery {
+    text-align: center;
+}
+.gallery-item {
+    display: inline-block;
+    margin: 10px 11px 16px;
+}
+.gallery-item .image {
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.location {
+    margin: 0 auto;
+    padding-top: 80px;
+    max-width: 1200px;
+    min-height: 570px;
+    background-image: url("../Images/img-locations-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.location-title {
+    text-align: center;
+}
+.adress-container {
+    text-align: center;
+}
+.adress-container .adress {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 277px;
+    margin: 20px;
+    background-color: black;
+}
+.contacts {
+    max-width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+.contacts-title {
+    margin-bottom: 40px;
+}
+.contacts-adress {
+    margin-bottom: 30px;
+}
+.copyright {
+    margin-left: 20px;
+    padding-bottom: 40px;
+}
